@@ -33,7 +33,7 @@ public class hw {
         hours3 = scan.nextFloat();
         System.out.println("And the last one: enter how many hours of free time you have on weekends");
         hours5 = scan.nextFloat();
-        float ratio = ((hours+hours2)*300+hours4*120)/((hours3)*300+hours5*120); /* calculating the ratio */
+        float ratio = ((hours+hours2)*300+hours4*120)/((hours3)*300+hours5*120); /* calculating the ratio*/
         System.out.print("Dear "+ name +" "+ lastname+", "+ age + ", from "+ city+ ", you have spent " + (int)((hours+hours2)*300+hours4*120));
         System.out.println(" minutes on work and " +(int)((hours3)*300+hours5*120) + " on rest this week, studying at " +school);
         System.out.println(" Your work to rest ratio is " +ratio);
